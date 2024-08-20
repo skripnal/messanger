@@ -1,0 +1,24 @@
+.container {
+    border-right: 1px solid black;
+}
+
+.chatImg {
+    width: 50px;
+    border-radius: 50%;
+}
+
+.container ul {
+}
+
+.container ul li {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 10px 10px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.container ul li:hover {
+    background-color: lightgray;
+}

@@ -1,0 +1,11 @@
+.loginContaner {
+    margin-top: 200px;
+}
+
+.loginContaner button {
+    display: block;
+    margin: 0 auto;
+    font-size: 18px;
+    padding: 10px 15px;
+    cursor: pointer;
+}

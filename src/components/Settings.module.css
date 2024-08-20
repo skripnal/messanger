@@ -1,0 +1,92 @@
+.container {
+    margin-top: 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.userImage {
+    width: 300px;
+    aspect-ratio: 1;
+    object-fit: cover;
+    border-radius: 50%;
+    display: block;
+    margin-top: 20px;
+}
+
+.title {
+    display: grid;
+    grid-template-columns: 1fr auto 1fr;
+    align-items: center;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.titleBackButton {
+    margin-left: 25px;
+    border: 2px solid lightgray;
+    border-radius: 50%;
+    font-size: 30px;
+    padding: 5px;
+    box-sizing: content-box;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+
+    &:hover {
+        background-color: lightgray;
+        color: white;
+    }
+}
+
+.fileLabel {
+    border: 2px solid lightgray;
+    padding: 5px 10px;
+    font-size: 20px;
+    border-radius: 7px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    background-color: rgb(246, 246, 246);
+    margin-top: 15px;
+
+    &:hover {
+        background-color: gray;
+        border: 2px solid gray;
+        color: white;
+    }
+}
+
+.fileLabel > input {
+    display: none;
+}
+
+.username {
+    margin-top: 30px;
+    font-size: 30px;
+}
+
+.changeUsernameLabel {
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+.changeUsernameLabel > input {
+    font-size: 20px;
+    display: block;
+    margin-top: 5px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: 2px solid black;
+}
+
+.saveButton {
+    margin-top: 30px;
+    font-size: 20px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.usernameExistMessage {
+    margin-top: 5px;
+    font-size: 18px;
+    color: red;
+}
